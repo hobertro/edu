@@ -39,8 +39,14 @@ gem 'spring',        group: :development
 # Use unicorn as the app server
 # gem 'unicorn'
 
+# group :development do
+#   gem 'capistrano', '~> 3.2.0', require: false
+#   gem 'capistrano-rails',   '~> 1.1', require: false
+#   gem 'capistrano-bundler', '~> 1.1', require: false
+# end
+
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'capistrano-rails', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
